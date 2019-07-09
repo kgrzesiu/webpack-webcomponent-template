@@ -1,0 +1,25 @@
+{
+  "name": "plain-js-webcomponent-test",
+  "version": "0.0.1",
+  "description": "Testing React in Web component",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && webpack --mode production"
+  },
+  "directories": {
+    "src": "src"
+  },
+  "author": "Greg Kazmierczak",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "rimraf": "^2.6.3",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {}
+}
